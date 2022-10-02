@@ -247,14 +247,17 @@ img~p /*Aplica a todos los elementos posteriores a la etiqueta principal usando 
 .imagenDiferenciales{
     width: 60%;
     transition: 1s;
-    /*CREAR SOMBRAS se utiliza la propiedad "box-shadow" para crear sombras a los distintos elementps 
+
+    /*
+    CREAR SOMBRAS se utiliza la propiedad "box-shadow" para crear sombras a los distintos elementps 
     de las paginas HTML tomando como referencia los siguientes atributos: 
         
         1. El primer parametro es la posicion en el eje horizontal (campo obligatorio)
         2. El segundo parametro es la posicion en el eje vertical (campo obligatorio)
         3. el tercero es la cantidad de desenfoque que se desea aplicar a la sombra (campo opcional)
         4. la amplitud de la sombra o el espacio que ocupa (campo opcional)
-        5. el color (Campo obligatorio) */
+        5. el color (Campo obligatorio)
+    */
     box-shadow: 10px 10px 30px black;
 }
 .imagenDiferenciales:hover{
